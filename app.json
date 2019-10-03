@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "WCBN-FM Ann Arbor",
+    "description": "Discover new music from the student-run radio station of the University of Michigan.",
+    "slug": "wcbn-app",
+    "githubUrl": "https://github.com/wcbn/player-react-native",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash/default.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#212733"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.wcbn",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "package": "org.wcbn",
+      "versionCode": 4,
+      "splash": {
+        "backgroundColor": "#212733",
+        "resizeMode": "contain",
+        "mdpi": "./assets/splash/mdpi.png",
+        "hdpi": "./assets/splash/hdpi.png",
+        "xhdpi": "./assets/splash/xhdpi.png", 
+        "xxhdpi": "./assets/splash/xxhdpi.png",
+        "xxxhdpi": "./assets/splash/xxxhdpi.png"
+      }
+    }
+  }
+}
