@@ -18,7 +18,7 @@
 
 # Demo
 
-[View with the Expo app](https://expo.io/@derekacosta/wcbn-app)
+[View with the Expo app](https://expo.io/@derekacosta/RadioPlayer)
 
 # Things you'll need
 
